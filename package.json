@@ -53,5 +53,10 @@
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
     "prettier": "^3.0.3"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!<package_name>)/"
+    ]
   }
 }
