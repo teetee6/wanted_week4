@@ -1,0 +1,34 @@
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  color: black;
+}
+
+/* Style the buttons */
+button {
+  background-color: #3498db; /* Button background color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Padding for the button content */
+  font-size: 16px; /* Font size */
+  cursor: pointer;
+  margin: 5px; /* Margin between buttons */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Style the buttons on hover */
+button:hover {
+  background-color: #2980b9; /* Hover background color */
+}
+
+/* Style the "ALL" button differently */
+button#all-button {
+  background-color: #e74c3c; /* Different background color */
+}
+
+/* Style the "ALL" button on hover */
+button#all-button:hover {
+  background-color: #c0392b; /* Hover background color */
+}
