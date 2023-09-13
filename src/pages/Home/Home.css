@@ -6,29 +6,25 @@
   color: black;
 }
 
-/* Style the buttons */
 button {
-  background-color: #3498db; /* Button background color */
-  color: #fff; /* Text color */
+  background-color: #3498db;
+  color: #fff;
   border: none;
-  padding: 10px 20px; /* Padding for the button content */
-  font-size: 16px; /* Font size */
+  padding: 10px 20px;
+  font-size: 16px;
   cursor: pointer;
-  margin: 5px; /* Margin between buttons */
-  border-radius: 5px; /* Rounded corners */
+  margin: 5px;
+  border-radius: 5px;
 }
 
-/* Style the buttons on hover */
 button:hover {
-  background-color: #2980b9; /* Hover background color */
+  background-color: #2980b9;
 }
 
-/* Style the "ALL" button differently */
 button#all-button {
-  background-color: #e74c3c; /* Different background color */
+  background-color: #e74c3c;
 }
 
-/* Style the "ALL" button on hover */
 button#all-button:hover {
-  background-color: #c0392b; /* Hover background color */
+  background-color: #c0392b;
 }
